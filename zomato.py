@@ -57,7 +57,7 @@ fig5= px.scatter_mapbox(
     size_max=100,
     zoom=10,
     mapbox_style="open-street-map",
-    title="Delivery Counts on Map",
+    title="TABLE BOOKING",
     labels={'Has Table booking': 'Count of Delivery'},
 )
 
@@ -79,7 +79,7 @@ fig6 = px.scatter_mapbox(
     size_max=50,
     zoom=10,
     mapbox_style="open-street-map",
-    title="Delivery Counts on Map",
+    title="RATING_COUNT_TEXT VS RANTING COUNT",
     labels={'rating_count_text': 'Count of Delivery'},
 )
 
@@ -94,7 +94,7 @@ fig7 = px.scatter_mapbox(
     size_max=100,
     zoom=1,
     mapbox_style="open-street-map",
-    title="Delivery Counts on Map",
+    title="AVG COST PRICE VS RATING TEXT",
     labels={'rating_count_text': 'Count of Delivery'},
 )
 
